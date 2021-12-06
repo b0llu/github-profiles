@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
