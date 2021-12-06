@@ -30,7 +30,7 @@ function createUserCard(user) {
             <li>${user.following} <strong>Following</strong></li>
             <li>${user.public_repos} <strong>Repos</strong></li>
             </ul>
-            <a href='${user.url}' target='_blank'>Check GitHub</a>
+            <a href='${user.html_url}' target='_blank'>Check GitHub</a>
             <a href='${user.blog}' target='_blank'>Check Site</a>
         </div>
     </div>
@@ -38,7 +38,6 @@ function createUserCard(user) {
 
   main.innerHTML = cardHTML;
 }
-
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
